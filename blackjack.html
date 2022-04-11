@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Blackjack</title>
+  <link rel="stylesheet" type="text/css" href="blackjack.css">
+  <script src="blackjack.js"></script>
+  <link rel="shortcut icon" href="2434380.jpg" type="image/x-icon">
+</head>
+
+<body>
+
+  <h1 id="headg">Web Application to play BLACK JACK</h1>
+
+  <div id="deal-wrap">
+    <!--  DEALER'S POINTS + STAND -->
+    <div id="deal-data">
+      <span id="deal-stand">STAND</span>
+      Dealer's Hand - <span id="deal-points">?</span>
+    </div>
+
+    <!--  DEALER'S CARDS -->
+    <div id="deal-cards"></div>
+  </div>
+
+  <div id="play-wrap">
+    <!--  PLAYERS'S POINTS + STAND -->
+    <div id="play-data">
+      <span id="play-stand">STAND</span>
+      Your Hand - <span id="play-points">0</span>
+    </div>
+
+    <!--  PLAYER'S CARDS -->
+    <div id="play-cards"></div>
+  </div>
+
+  <!--  GAME BUTTONS/CONTROLS! -->
+  <div id="play-control">
+    <!--  START -->
+    <input type="button" id="playc-start" value="Play!" />
+    <!--  HIT OR STAND -->
+    <input type="button" id="playc-hit" value="Hit" />
+    <input type="button" id="playc-stand" value="Stand" />
+  </div>
+  <h1 id="strategy"></h1>
+</body>
+
+</html>
